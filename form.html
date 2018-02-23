@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <nav>
+        <h3>
+            <a href="index.html">Back to the article</a>
+        </h3>
+    </nav>
+
+    <form method="POST" action=https://formspree.io/marta.kovaliv@gmail.com>
+        <fieldset>
+            <legend>Let us know Your Feedback!</legend>
+            <label>First Name:
+            <input type="text" placeholder="Your First Name" name="first-name" required />
+        </label>
+            <br>
+            <label>Last Name:
+            <input type="text" placeholder="Your Last Name" name="last-name" required/>
+        </label>
+            <br>
+            <label>Password:    
+            <input type="password" name="password" required/>
+        </label>
+            <br>
+            <label for="gender" name="gender" required>Your gender</label>
+            <select>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+            <br>
+            <p>How old are you?</p>
+            <label>
+                <input type="radio" name="age" value="0-18" checked> 0-18<br>
+            </label>
+            <label>
+                <input type="radio" name="age" value="18-30"> 18-30<br>
+            </label>
+            <label>
+                <input type="radio" name="age" value="30-40"> 30-40<br>
+            </label>
+            <label>
+                <input type="radio" name="age" value="40-50"> 40-50<br>
+            </label>
+            <label>
+            <input type="radio" name="age" value="50+"> 50+<br>
+            </label>
+            <p>What is your current English evel?</p>
+            <label>
+            <input type="checkbox" name="level-preintermid"/> Pre-intermidiate<br>
+        </label>
+            <label>
+            <input type="checkbox" name="english-intermid"/> Intermidiate<br>
+        </label>
+            <label>
+            <input type="checkbox" name="english-upper"/> Upper-Intermidiate<br>
+        </label>
+            <label>
+            <input type="checkbox" name="english-advanced"/> Advanced<br>
+        </label>
+            <h4>Have something to say? Please write your message below:</h4>
+            <textarea name="message" rows="10" cols="30" placeholder="Your Message here"></textarea>
+            <br>
+            <input type="submit">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
